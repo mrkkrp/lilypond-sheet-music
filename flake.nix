@@ -13,25 +13,24 @@
         sheetMusic = pkgs.stdenv.mkDerivation {
           name = "lilypond-sheet-music";
           src = pkgs.lib.sources.sourceByRegex ./. [
+            "^include.*$"
             "^music.*$"
           ];
           buildInputs = [
-            pkgs.lilypond-with-fonts
+            pkgs.lilypond-unstable-with-fonts
           ];
           LANG = "en_US.UTF-8";
           FONTCONFIG_FILE = pkgs.makeFontsConf {
             fontDirectories = [
-              pkgs.open-sans
+              pkgs.cardo
+              pkgs.noto-fonts
             ];
           };
           buildPhase = ''
-
-            # fc-list
-            # exit 1
             mkdir pdf
             for x in $(find music -name '*.ly');
             do
-              lilypond -o pdf "$x"
+              lilypond --include=$(pwd)/include -o pdf "$x"
             done
           '';
           installPhase = ''
