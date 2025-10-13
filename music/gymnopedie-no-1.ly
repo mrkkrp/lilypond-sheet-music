@@ -1,5 +1,5 @@
 \version "2.25.27"
-\include "paper-settings.ly"
+\include "prelude.ly"
 \header {
   title = "Gymnopédie No. 1"
   composer = "Erik Satie"
