@@ -58,7 +58,7 @@ firstVoice = \relative c' {
   r4
   < a-1 cis-1 >2
   r4
-  < a-1 e-4 >2
+  < a-1 e'-4 >2
   r4
   < g-0 b-0 e-0 >2
 
@@ -307,6 +307,45 @@ thirdVoice = \relative c'' {
   dis-1
   gis-1
   fis,-3
+  s4*6
+
+  \barNumberCheck #22
+  b4-4 cis-4 d-3 fis-3 e-4 cis-1 e-4 d-2 cis-1
+
+  \barNumberCheck #25
+  e2.-0~
+  e2-0
+  e4-0 fis-1 g-1 a-4 b-4 d,-1 e-0 fis-1 e-4 cis-1
+
+  \barNumberCheck #30
+  e2.-0~
+  e2-0 e4-0
+  a2.-4 gis-1
+  cis,4-1 b-0 cis-3 dis-4 e-0 fis-3 dis-4 e-0 fis-3
+  s4*21
+
+  \barNumberCheck #44
+  r4
+  gis4-1 b-4 a-2 gis-1 dis-1 cis-4 dis-1 e-2
+  b2.-1
+  gis2.
+  s4*9
+
+  \barNumberCheck #52
+  r4
+  gis'4-1 b-4 a-2 gis-1 dis-1 cis-4 dis-1 e-2
+  b2.-1 dis-1 gis-1 fis,-3
+  s4*6
+
+  \barNumberCheck #61
+  b4-4 cis-4 d-3 fis-3 e-4 cis-1 e-4 d-2 cis-1
+  e2.-0~ e2 e4
+  fis-1 g-1 a-4 b-4 d,-3 e-0 fis-1 e-4 cis-1
+  e2.-0~ e2 e4
+  a2.-4 g-2
+
+  \barNumberCheck #73
+  cis,4-1 d-2 g-2 fis-1 e-4 d-2 fis-1 e-4 d-2
 
 }
 
