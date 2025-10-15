@@ -31,8 +31,8 @@ firstVoice = \relative c' {
 
   \barNumberCheck #9
   \stemUp
-  r4
-  < cis-3 e-2 gis-1 >2\f
+  dis4\rest
+  < cis-4 e-2 gis-1 >2\f
   r4
   < b-1 dis-1 gis-1>2
   r4
@@ -54,7 +54,7 @@ firstVoice = \relative c' {
   e,4\rest
   < gis-3 b-1 >2
   a4\rest
-  < cis-4 e-2>2
+  < cis-3 e-2>2
   cis4\rest
   < a-1 cis-1 >2
   r4
@@ -63,14 +63,14 @@ firstVoice = \relative c' {
   < g-0 b-0 e-0 >2
 
   \barNumberCheck #22
-  b,4-1
-  < d-3 g-2 >2
+  \glissandoToSlashedGrace b,4_1 d8
+  < d-1 g-1 >2
   e4\rest
   < fis-3 a-1 >2
   e4\rest
   < fis-3 a-1 >2
   e4\rest
-  < d-4 fis-3 b-0 >2
+  < d-3 fis-2 b-0 >2
   e4\rest
   < d-0 gis-1 b-0 >2
   e4\rest
@@ -83,7 +83,7 @@ firstVoice = \relative c' {
   \barNumberCheck #30
   \stemUp
   e4\rest
-  < d-4 fis-3 b-0 >2
+  < d-3 fis-2 b-0 >2
   e4\rest
   < d-0 gis-1 b-0 >2
   e4\rest
@@ -97,7 +97,7 @@ firstVoice = \relative c' {
   e4\rest
   < dis-1 b'-0 >2
   e4\rest
-  < dis-1 gis-2 b-0 >2
+  < dis-1 b'-0 >2
 
   \barNumberCheck #37
   \stemUp
@@ -134,8 +134,8 @@ firstVoice = \relative c' {
 
   \barNumberCheck #48
   \stemUp
-  r4
-  < cis-3 e-2 gis-1 >2
+  dis4\rest
+  < cis-4 e-2 gis-1 >2
   r4
   < b-1 dis-1 gis-1>2
   r4
@@ -158,7 +158,7 @@ firstVoice = \relative c' {
   e,4\rest
   < gis-3 b-1 >2
   a4\rest
-  < cis-4 e-2>2
+  < cis-3 e-2>2
   cis4\rest
   < a-1 cis-1 >2
   r4
@@ -167,14 +167,14 @@ firstVoice = \relative c' {
   < g-0 b-0 e-0 >2
 
   \barNumberCheck #61
-  b,4-1
-  < d-3 g-2 >2
+  \glissandoToSlashedGrace b,4_1 d8
+  < d-1 g-1 >2
   e4\rest
   < fis-3 a-1 >2
   e4\rest
   < fis-3 a-1 >2
   e4\rest
-  < d-4 fis-3 b-0 >2
+  < d-3 fis-2 b-0 >2
   e4\rest
   < d-0 gis-1 b-0 >2
   e4\rest
@@ -187,7 +187,7 @@ firstVoice = \relative c' {
   \barNumberCheck #69
   \stemUp
   e4\rest
-  < d-4 fis-3 b-0 >2
+  < d-3 fis-2 b-0 >2
   e4\rest
   < d-0 gis-1 b-0 >2
   e4\rest
@@ -199,9 +199,9 @@ firstVoice = \relative c' {
   fis4\rest
   < g-4 b-3 >2
   e4\rest
-  b'2-3
+  b'2_3
   e,4\rest
-  b'2-3
+  b'2_3
 
   \barNumberCheck #76
   \stemUp
@@ -301,14 +301,13 @@ thirdVoice = \relative c'' {
   \voiceThree
   s4*12
   r4
-  gis-1 b-4 a-2 gis-1 dis cis-4 dis-1 e-2 b2.-1
+  gis-1 b-4 a-2 gis-1 dis-1 cis-4 dis-1 e-2 b2.-1
 
   \barNumberCheck #9
-  gis2.
+  gis2.-3~ gis2.~ gis2.~ gis2.
 
-  s4*9
   r4
-  gis'-1\pp b-4 a-2 gis-1 dis cis-4 dis-1 e-2 b2.-1
+  gis'-1\pp b-4 a-2 gis-1 dis-1 cis-4 dis-1 e-2 b2.-1
 
   \barNumberCheck #17
   dis-1
@@ -317,26 +316,26 @@ thirdVoice = \relative c'' {
   s4*6
 
   \barNumberCheck #22
-  b4-4\p cis-4 d-3 fis-3 e-4 cis-1 e-4 d-2 cis-1
+  \glissandoToSlashedGrace b4-3 cis8
+  cis4-2 d-3 fis-3 e-4 cis-1 e-4 d-2 cis-1
 
   \barNumberCheck #25
   e2.-0~
   e2
-  e4-0 fis-1 g-1 a-4 b-4 d,-1 e-0 fis-1 e-4 cis-1
+  e4-0 fis-1 g-1 a-3 b-3 d,-1 e-0 fis-1 e-4 cis-1
 
   \barNumberCheck #30
   e2.-0~
   e2 e4-0
   a2.-4 gis-1
-  cis,4-1 b-0 cis-3 dis-4 e-0 fis-3 dis-4 e-0 fis-3
+  cis,4-1 b-0 \glissandoToSlashedGrace cis-3 dis8 dis4-3 e-0 fis-2 dis-3 e-0 fis-2
   s4*21
 
   \barNumberCheck #44
   r4
   gis4-1 b-4 a-2 gis-1 dis-1 cis-4 dis-1 e-2
   b2.-1
-  gis2.
-  s4*9
+  gis2.-3~ gis2.~ gis2.~ gis2.
 
   \barNumberCheck #52
   r4
@@ -345,10 +344,11 @@ thirdVoice = \relative c'' {
   s4*6
 
   \barNumberCheck #61
-  b4-4\p cis-4 d-3 fis-3 e-4 cis-1 e-4 d-2 cis-1
-  e2.-0~ e2 e4
-  fis-1 g-1 a-4 b-4 d,-3 e-0 fis-1 e-4 cis-1
-  e2.-0~ e2 e4
+  \glissandoToSlashedGrace b4-3\p cis8
+  cis4-2 d-3 fis-3 e-4 cis-1 e-4 d-2 cis-1
+  e2.-0~ e2 e4-0
+  fis-1 g-1 a-3 b-3 d,-1 e-0 fis-1 e-4 cis-1
+  e2.-0~ e2 e4-0
   a2.-4 g-2
 
   \barNumberCheck #73
