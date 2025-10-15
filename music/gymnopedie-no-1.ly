@@ -32,7 +32,7 @@ firstVoice = \relative c' {
   \barNumberCheck #9
   \stemUp
   r4
-  < cis-3 e-2 gis-1 >2
+  < cis-3 e-2 gis-1 >2\f
   r4
   < b-1 dis-1 gis-1>2
   r4
@@ -105,8 +105,10 @@ firstVoice = \relative c' {
   < cis'-3 e-1 >4
   < fis-3 a-1 >4
 
-  < b,-1 d-0 a'-2 d-3 >2.
-  < e,-0 b'-2 e-3 gis-1 b-0 e-0 >2.
+  \arpeggioArrowUp
+  < b,-1 d-0 a'-2 d-3 >2.\arpeggio
+  \arpeggioArrowUp
+  < e,-0 b'-2 e-3 gis-1 b-0 e-0 >2.\arpeggio
 
   \barNumberCheck #40
   \stemUp
@@ -206,14 +208,18 @@ firstVoice = \relative c' {
   < cis'-3 e-1 >4
   < fis-3 a-1 >4
 
-  < b,-1 d-0 a'-2 d-3 >2.
-  < e,-0 b'-2 e-3 g-0 b-0 e-0 >2.
+  \arpeggioArrowUp
+  < b,-1 d-0 a'-2 d-3 >2.\arpeggio
+  \arpeggioArrowUp
+  < e,-0 b'-2 e-3 g-0 b-0 e-0 >2.\arpeggio
+
+  \bar "|."
 
 }
 
 secondVoice = \fixed c, {
   \voiceTwo
-  a2.-0 e2.-0
+  a2.-0\pp e2.-0
   a2.-0 e2.-0
   a2.-0 e2.-0
   a2.-0 e2.-0
@@ -250,7 +256,7 @@ secondVoice = \fixed c, {
   s4*9
 
   \barNumberCheck #40
-  a2.-0 e2.-0
+  a2.-0\pp e2.-0
   a2.-0 e2.-0
   a2.-0 e2.-0
   a2.-0 e2.-0
@@ -301,7 +307,7 @@ thirdVoice = \relative c'' {
 
   s4*9
   r4
-  gis'-1 b-4 a-2 gis-1 dis cis-4 dis-1 e-2 b2.-1
+  gis'-1\pp b-4 a-2 gis-1 dis cis-4 dis-1 e-2 b2.-1
 
   \barNumberCheck #17
   dis-1
@@ -310,7 +316,7 @@ thirdVoice = \relative c'' {
   s4*6
 
   \barNumberCheck #22
-  b4-4 cis-4 d-3 fis-3 e-4 cis-1 e-4 d-2 cis-1
+  b4-4\p cis-4 d-3 fis-3 e-4 cis-1 e-4 d-2 cis-1
 
   \barNumberCheck #25
   e2.-0~
@@ -338,7 +344,7 @@ thirdVoice = \relative c'' {
   s4*6
 
   \barNumberCheck #61
-  b4-4 cis-4 d-3 fis-3 e-4 cis-1 e-4 d-2 cis-1
+  b4-4\p cis-4 d-3 fis-3 e-4 cis-1 e-4 d-2 cis-1
   e2.-0~ e2 e4
   fis-1 g-1 a-4 b-4 d,-3 e-0 fis-1 e-4 cis-1
   e2.-0~ e2 e4
