@@ -38,7 +38,7 @@ firstVoice = \relative c' {
   r4
   < b-1 dis-1 gis-1>2
   r4
-  < cis-3 e-2 gis-1 >2
+  < cis-4 e-2 gis-1 >2
   r4
   < b-1 dis-1 gis-1>2
 
@@ -147,7 +147,7 @@ firstVoice = \relative c' {
   r4
   < b-1 dis-1 gis-1>2
   r4
-  < cis-3 e-2 gis-1 >2
+  < cis-4 e-2 gis-1 >2
   r4
   < b-1 dis-1 gis-1>2
 
