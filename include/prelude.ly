@@ -2,6 +2,10 @@
   property-defaults.fonts.serif = "Cardo"
   property-defaults.fonts.sans = "Cardo"
   property-defaults.fonts.typewriter = "Noto Sans Mono"
+  top-margin = 3\cm
+  left-margin = 3\cm
+  right-margin = 3\cm
+  bottom-margin = 3\cm
 }
 
 \header{
