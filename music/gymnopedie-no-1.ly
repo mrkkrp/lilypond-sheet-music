@@ -29,6 +29,8 @@ firstVoice = \relative c' {
   c,4\rest
   < dis'-1 gis-1 >2
 
+  \break
+
   \barNumberCheck #9
   \stemUp
   dis4\rest
@@ -49,6 +51,8 @@ firstVoice = \relative c' {
   < gis-3 cis-4>2
   c,4\rest
   < dis'-1 gis-1 >2
+
+  \break
 
   \barNumberCheck #17
   e,4\rest
@@ -110,6 +114,8 @@ firstVoice = \relative c' {
   \arpeggioArrowUp
   < e,-0 b'-2 e-3 gis-1 b-0 e-0 >2.\arpeggio
 
+  \break
+
   \barNumberCheck #40
   \stemUp
   r4
@@ -132,6 +138,8 @@ firstVoice = \relative c' {
   cis,4\rest
   < dis'-1 gis-1 >2
 
+  \break
+
   \barNumberCheck #48
   \stemUp
   dis4\rest
@@ -153,6 +161,8 @@ firstVoice = \relative c' {
   < gis-3 cis-4>2
   c,4\rest
   < dis'-1 gis-1 >2
+
+  \break
 
   \barNumberCheck #56
   e,4\rest
@@ -301,58 +311,58 @@ thirdVoice = \relative c'' {
   \voiceThree
   s4*12
   r4
-  gis-1 b-4 a-2 gis-1 dis-1 cis-4 dis-1 e-2 b2.-1
+  gis-1( b-4 a-2 gis-1 dis-1 cis-4 dis-1 e-2 b2.-1
 
   \barNumberCheck #9
-  gis2.-3~ gis2.~ gis2.~ gis2.
+  gis2.-3~) gis2.~ gis2.~ gis2.
 
   r4
-  gis'-1\pp b-4 a-2 gis-1 dis-1 cis-4 dis-1 e-2 b2.-1
+  gis'-1(\pp b-4 a-2 gis-1 dis-1 cis-4 dis-1 e-2 b2.-1
 
   \barNumberCheck #17
   dis-1
   gis-1
-  fis,-3
+  fis,-3)
   s4*6
 
   \barNumberCheck #22
-  \glissandoToSlashedGrace b4-3 cis8
-  cis4-2 d-3 fis-3 e-4 cis-1 e-4 d-2 cis-1
+  \glissandoToSlashedGrace b4-3( cis8
+  cis4-2 d-3\3 fis-3\2 e-4 cis-1 e-4 d-2 cis-1
 
   \barNumberCheck #25
-  e2.-0~
+  e2.-0~)
   e2
-  e4-0 fis-1 g-1 a-3 b-3 d,-1 e-0 fis-1 e-4 cis-1
+  e4-0( fis-1 g-1 a-3 b-3 d,-1 e-0 fis-1 e-4 cis-1
 
   \barNumberCheck #30
-  e2.-0~
-  e2 e4-0
+  e2.-0~)
+  e2 e4-0(
   a2.-4 gis-1
-  cis,4-1 b-0 \glissandoToSlashedGrace cis-3 dis8 dis4-3 e-0 fis-2 dis-3 e-0 fis-2
+  cis,4-1 b-0 \glissandoToSlashedGrace cis-3 dis8 dis4-3 e-0 fis-2 dis-3 e-0 fis-2)
   s4*21
 
   \barNumberCheck #44
   r4
-  gis4-1 b-4 a-2 gis-1 dis-1 cis-4 dis-1 e-2
+  gis4-1( b-4 a-2 gis-1 dis-1 cis-4 dis-1 e-2
   b2.-1
-  gis2.-3~ gis2.~ gis2.~ gis2.
+  gis2.-3~) gis2.~ gis2.~ gis2.
 
   \barNumberCheck #52
   r4
-  gis'4-1 b-4 a-2 gis-1 dis-1 cis-4 dis-1 e-2
-  b2.-1 dis-1 gis-1 fis,-3
+  gis'4-1( b-4 a-2 gis-1 dis-1 cis-4 dis-1 e-2
+  b2.-1 dis-1 gis-1 fis,-3)
   s4*6
 
   \barNumberCheck #61
-  \glissandoToSlashedGrace b4-3\p cis8
-  cis4-2 d-3 fis-3 e-4 cis-1 e-4 d-2 cis-1
-  e2.-0~ e2 e4-0
+  \glissandoToSlashedGrace b4-3(\p cis8
+  cis4-2 d-3\3 fis-3\2 e-4 cis-1 e-4 d-2 cis-1
+  e2.-0~) e2 e4-0(
   fis-1 g-1 a-3 b-3 d,-1 e-0 fis-1 e-4 cis-1
-  e2.-0~ e2 e4-0
+  e2.-0~) e2 e4-0(
   a2.-4 g-2
 
   \barNumberCheck #73
-  cis,4-1 d-2 g-2 fis-1 e-4 d-2 fis-1 e-4 d-2
+  cis,4-1 d-2 g-2 fis-1 e-4 d-2 fis-1 e-4 d-2)
 
 }
 
