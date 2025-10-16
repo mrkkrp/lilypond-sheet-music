@@ -6,6 +6,7 @@
   left-margin = 3\cm
   right-margin = 3\cm
   bottom-margin = 3\cm
+  indent = 0
 }
 
 \header{
